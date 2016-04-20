@@ -8,7 +8,9 @@
 
 #import "TwoViewController.h"
 
-@interface TwoViewController ()
+@interface TwoViewController () <UIWebViewDelegate>
+
+@property (nonatomic, strong) UIWebView *webView;
 
 @end
 
@@ -16,6 +18,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIWebView *webView = [[UIWebView alloc]initWithFrame:self.view.bounds];
+    webView.delegate = self;
+    [self.view addSubview:webView];
+    self.webView = webView;
+    
+    //加载本地的html
+    NSString *htmlPath = [[NSBundle mainBundle]pathForResource:@"j1mall" ofType:@"html"];
+    NSURL *url = [NSURL URLWithString:htmlPath];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [self.webView loadRequest:request];
 }
 
 

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2104D1641CC719A800070EEF /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 2104D1621CC719A800070EEF /* test.js */; };
+		2104D16C1CC74C4100070EEF /* j1mall.html in Resources */ = {isa = PBXBuildFile; fileRef = 2104D16B1CC74C4100070EEF /* j1mall.html */; };
+		2104D16E1CC74C5500070EEF /* j1mall.css in Resources */ = {isa = PBXBuildFile; fileRef = 2104D16D1CC74C5500070EEF /* j1mall.css */; };
+		2104D1701CC74C6300070EEF /* j1mall.js in Resources */ = {isa = PBXBuildFile; fileRef = 2104D16F1CC74C6300070EEF /* j1mall.js */; };
+		2104D1721CC74F9600070EEF /* j1mall_build.js in Resources */ = {isa = PBXBuildFile; fileRef = 2104D1711CC74F9600070EEF /* j1mall_build.js */; };
 		2113B9681CC4D6D000CBCD47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113B9671CC4D6D000CBCD47 /* main.m */; };
 		2113B96B1CC4D6D000CBCD47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113B96A1CC4D6D000CBCD47 /* AppDelegate.m */; };
 		2113B96E1CC4D6D000CBCD47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113B96D1CC4D6D000CBCD47 /* ViewController.m */; };
@@ -26,6 +30,10 @@
 
 /* Begin PBXFileReference section */
 		2104D1621CC719A800070EEF /* test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
+		2104D16B1CC74C4100070EEF /* j1mall.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = j1mall.html; sourceTree = "<group>"; };
+		2104D16D1CC74C5500070EEF /* j1mall.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = j1mall.css; sourceTree = "<group>"; };
+		2104D16F1CC74C6300070EEF /* j1mall.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = j1mall.js; sourceTree = "<group>"; };
+		2104D1711CC74F9600070EEF /* j1mall_build.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = j1mall_build.js; sourceTree = "<group>"; };
 		2113B9631CC4D6D000CBCD47 /* WebView-JS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebView-JS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2113B9671CC4D6D000CBCD47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2113B9691CC4D6D000CBCD47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -126,6 +134,10 @@
 			children = (
 				213D117D1CC5FF8F0023222E /* TwoViewController.h */,
 				213D117E1CC5FF8F0023222E /* TwoViewController.m */,
+				2104D16B1CC74C4100070EEF /* j1mall.html */,
+				2104D16D1CC74C5500070EEF /* j1mall.css */,
+				2104D16F1CC74C6300070EEF /* j1mall.js */,
+				2104D1711CC74F9600070EEF /* j1mall_build.js */,
 			);
 			path = "加载网络js文件";
 			sourceTree = "<group>";
@@ -247,10 +259,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2104D16E1CC74C5500070EEF /* j1mall.css in Resources */,
 				2104D1641CC719A800070EEF /* test.js in Resources */,
+				2104D1721CC74F9600070EEF /* j1mall_build.js in Resources */,
 				2113B9761CC4D6D000CBCD47 /* LaunchScreen.storyboard in Resources */,
 				2113B9731CC4D6D000CBCD47 /* Assets.xcassets in Resources */,
 				213D11E01CC62F630023222E /* test.html in Resources */,
+				2104D16C1CC74C4100070EEF /* j1mall.html in Resources */,
+				2104D1701CC74C6300070EEF /* j1mall.js in Resources */,
 				2113B9711CC4D6D000CBCD47 /* Main.storyboard in Resources */,
 				213D11D81CC62CC20023222E /* test.css in Resources */,
 			);
