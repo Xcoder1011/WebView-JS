@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210036DF1CC75C9100730E55 /* Four.html in Resources */ = {isa = PBXBuildFile; fileRef = 210036DE1CC75C9100730E55 /* Four.html */; };
+		210036E51CC75DC300730E55 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210036E41CC75DC300730E55 /* JavaScriptCore.framework */; };
+		210036ED1CC773D100730E55 /* GoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 210036EC1CC773D100730E55 /* GoodsModel.m */; };
 		2104D1641CC719A800070EEF /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 2104D1621CC719A800070EEF /* test.js */; };
 		2104D16C1CC74C4100070EEF /* j1mall.html in Resources */ = {isa = PBXBuildFile; fileRef = 2104D16B1CC74C4100070EEF /* j1mall.html */; };
 		2104D16E1CC74C5500070EEF /* j1mall.css in Resources */ = {isa = PBXBuildFile; fileRef = 2104D16D1CC74C5500070EEF /* j1mall.css */; };
 		2104D1701CC74C6300070EEF /* j1mall.js in Resources */ = {isa = PBXBuildFile; fileRef = 2104D16F1CC74C6300070EEF /* j1mall.js */; };
 		2104D1721CC74F9600070EEF /* j1mall_build.js in Resources */ = {isa = PBXBuildFile; fileRef = 2104D1711CC74F9600070EEF /* j1mall_build.js */; };
+		210AF25C1CC8A30F00ECF06E /* Five.html in Resources */ = {isa = PBXBuildFile; fileRef = 210AF25B1CC8A30F00ECF06E /* Five.html */; };
 		2113B9681CC4D6D000CBCD47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113B9671CC4D6D000CBCD47 /* main.m */; };
 		2113B96B1CC4D6D000CBCD47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113B96A1CC4D6D000CBCD47 /* AppDelegate.m */; };
 		2113B96E1CC4D6D000CBCD47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113B96D1CC4D6D000CBCD47 /* ViewController.m */; };
@@ -29,11 +33,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		210036DE1CC75C9100730E55 /* Four.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Four.html; sourceTree = "<group>"; };
+		210036E41CC75DC300730E55 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		210036EB1CC773D100730E55 /* GoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsModel.h; sourceTree = "<group>"; };
+		210036EC1CC773D100730E55 /* GoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsModel.m; sourceTree = "<group>"; };
 		2104D1621CC719A800070EEF /* test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
 		2104D16B1CC74C4100070EEF /* j1mall.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = j1mall.html; sourceTree = "<group>"; };
 		2104D16D1CC74C5500070EEF /* j1mall.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = j1mall.css; sourceTree = "<group>"; };
 		2104D16F1CC74C6300070EEF /* j1mall.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = j1mall.js; sourceTree = "<group>"; };
 		2104D1711CC74F9600070EEF /* j1mall_build.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = j1mall_build.js; sourceTree = "<group>"; };
+		210AF25B1CC8A30F00ECF06E /* Five.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Five.html; sourceTree = "<group>"; };
 		2113B9631CC4D6D000CBCD47 /* WebView-JS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebView-JS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2113B9671CC4D6D000CBCD47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2113B9691CC4D6D000CBCD47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210036E51CC75DC300730E55 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,7 @@
 		2113B95A1CC4D6D000CBCD47 = {
 			isa = PBXGroup;
 			children = (
+				210036E41CC75DC300730E55 /* JavaScriptCore.framework */,
 				2113B9651CC4D6D000CBCD47 /* WebView-JS */,
 				2113B9641CC4D6D000CBCD47 /* Products */,
 			);
@@ -156,6 +167,9 @@
 			children = (
 				213D11831CC5FFB60023222E /* FourViewController.h */,
 				213D11841CC5FFB60023222E /* FourViewController.m */,
+				210036EB1CC773D100730E55 /* GoodsModel.h */,
+				210036EC1CC773D100730E55 /* GoodsModel.m */,
+				210036DE1CC75C9100730E55 /* Four.html */,
 			);
 			path = "js调用oc方法（通过对象调用类中方法）";
 			sourceTree = "<group>";
@@ -165,6 +179,7 @@
 			children = (
 				213D11861CC5FFC30023222E /* FiveViewController.h */,
 				213D11871CC5FFC30023222E /* FiveViewController.m */,
+				210AF25B1CC8A30F00ECF06E /* Five.html */,
 			);
 			path = "js调用oc方法（通过block回调）";
 			sourceTree = "<group>";
@@ -268,6 +283,8 @@
 				2104D16C1CC74C4100070EEF /* j1mall.html in Resources */,
 				2104D1701CC74C6300070EEF /* j1mall.js in Resources */,
 				2113B9711CC4D6D000CBCD47 /* Main.storyboard in Resources */,
+				210036DF1CC75C9100730E55 /* Four.html in Resources */,
+				210AF25C1CC8A30F00ECF06E /* Five.html in Resources */,
 				213D11D81CC62CC20023222E /* test.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +304,7 @@
 				2113B9681CC4D6D000CBCD47 /* main.m in Sources */,
 				213D118E1CC600140023222E /* ThreeViewController.m in Sources */,
 				213D117F1CC5FF8F0023222E /* TwoViewController.m in Sources */,
+				210036ED1CC773D100730E55 /* GoodsModel.m in Sources */,
 				2141201B1CC5C8490076ED8B /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
