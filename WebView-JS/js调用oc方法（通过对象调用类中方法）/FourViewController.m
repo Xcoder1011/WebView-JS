@@ -36,16 +36,25 @@
     [self.webView loadRequest:request];
 }
 
-//
+
 //!!! 需要导入javascriptCore.framework
 -(void)webViewDidFinishLoad:(UIWebView *)webView{
+    #pragma mark -- 方式1
     
-    //首先创建JSContext 对象（此处通过当前webView的键获取到jscontext）
+    // 1. 首先创建JSContext 对象（此处通过当前webView的键获取到jscontext）
     JSContext *context = [webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
-    //将对象赋给js中的对象
+    // 2. 将对象赋给js中的对象
     GoodsModel *goodsModel = [[GoodsModel alloc]init];
-    //给js注入一个对象
+    // 给js注入一个对象
     context[@"SelectGoods"] = goodsModel;
+    
+    
+    #pragma mark -- 方式2:模拟调用js方法
+    
+    context[@"TestSelect"] = goodsModel;
+    NSString *jsStr1 = @"TestSelect.testJSToOCWithParameterOtherParameter('goodsId','price')";
+    [context evaluateScript:jsStr1];
+    
 }
 
 @end

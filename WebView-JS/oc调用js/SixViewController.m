@@ -42,6 +42,8 @@
      [self.navigationItem.rightBarButtonItem setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16],NSForegroundColorAttributeName:[UIColor redColor]} forState:UIControlStateNormal];
 }
 
+
+#pragma mark -- OC调用JS方式一
 -(void)loginClick{
     
     // 1.不传参数
@@ -59,6 +61,10 @@
     //首先创建JSContext 对象（此处通过当前webView的键获取到jscontext）
     JSContext *context = [webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
     _context = context;
+    
+#pragma mark -- OC调用JS方式二
+    NSString *alertJS = @"alert('网络加载完毕后弹框！')";
+    [context evaluateScript:alertJS];
 }
 
 

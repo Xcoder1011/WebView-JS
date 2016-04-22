@@ -14,4 +14,10 @@
     NSLog(@"curent selected ：goodsId = %@ , price = %@",goodsId,price);
 }
 
+
+-(void)testJSToOCWithParameter:(NSString *)param1 otherParameter:(NSString *)param2{
+
+    NSLog(@"JS调用OC , 参数1 = %@, 参数2 = %@",param1,param2);
+}
+
 @end

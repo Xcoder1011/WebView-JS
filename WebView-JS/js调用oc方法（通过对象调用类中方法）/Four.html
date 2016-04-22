@@ -79,11 +79,12 @@
                 //AppHost.
                 alert("活动已结束");
             }else {
-                //SelectGoods(id,activityType);
 
+                // 把js的方法名 selectGoodsIdWithPrice 任意拆分成两段作为代理方法名,此处我们拆分成selectGoodsId和withPrice
+                // 代理方法为： -(void)selectGoodsId:(NSString *)goodsId withPrice:(NSString *)price;
 
                 //！！！！注意：js的方法除第一个参数外，其他的参数首字母必须大写！！
-                SelectGoods.selectGoodsIdWithPrice(id, "￥120.0");
+                SelectGoods.selectGoodsIdWithPrice(id, '￥120.0');
                 // 下面这样写是错误的！！
                 // SelectGoods.selectGoodsIdwithPrice(id, "￥120.0");
             }
