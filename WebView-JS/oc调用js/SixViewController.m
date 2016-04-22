@@ -7,8 +7,15 @@
 //
 
 #import "SixViewController.h"
+#import <JavaScriptCore/JavaScriptCore.h>
 
-@interface SixViewController ()
+
+@interface SixViewController () <UIWebViewDelegate>
+
+@property (nonatomic, strong) UIWebView *webView;
+
+
+@property (nonatomic, strong) JSContext *context;
 
 @end
 
@@ -16,22 +23,44 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIWebView *webView = [[UIWebView alloc]initWithFrame:self.view.bounds];
+    webView.delegate = self;
+    [self.view addSubview:webView];
+    self.webView = webView;
+    
+    //加载本地的html
+    NSString *htmlPath = [[NSBundle mainBundle]pathForResource:@"Six" ofType:@"html"];
+    NSURL *url = [NSURL URLWithString:htmlPath];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [self.webView loadRequest:request];
+    
+    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc]initWithTitle:@"登录" style:UIBarButtonItemStylePlain target:self action:@selector(loginClick)];
+    self.navigationItem.rightBarButtonItem = rightItem;
+     [self.navigationItem.rightBarButtonItem setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16],NSForegroundColorAttributeName:[UIColor redColor]} forState:UIControlStateNormal];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)loginClick{
+    
+    // 1.不传参数
+    [_context evaluateScript:@"login()"];
+    
+    // 2.传参数
+    // 如login('abc'),而js中的就是var login = function(param){}
+     [_context evaluateScript:@"loginWithParam('参数abc')"];
+
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+//!!! 需要导入javascriptCore.framework
+-(void)webViewDidFinishLoad:(UIWebView *)webView{
+    
+    //首先创建JSContext 对象（此处通过当前webView的键获取到jscontext）
+    JSContext *context = [webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
+    _context = context;
 }
-*/
+
+
 
 @end

@@ -57,7 +57,6 @@
         for (id obj in args) {
             NSLog(@"obj = %@",obj);
         }
-    
     };
 }
 

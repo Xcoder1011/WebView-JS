@@ -16,6 +16,8 @@
 		2104D1701CC74C6300070EEF /* j1mall.js in Resources */ = {isa = PBXBuildFile; fileRef = 2104D16F1CC74C6300070EEF /* j1mall.js */; };
 		2104D1721CC74F9600070EEF /* j1mall_build.js in Resources */ = {isa = PBXBuildFile; fileRef = 2104D1711CC74F9600070EEF /* j1mall_build.js */; };
 		210AF25C1CC8A30F00ECF06E /* Five.html in Resources */ = {isa = PBXBuildFile; fileRef = 210AF25B1CC8A30F00ECF06E /* Five.html */; };
+		210AF25E1CC8A7E800ECF06E /* Six.html in Resources */ = {isa = PBXBuildFile; fileRef = 210AF25D1CC8A7E800ECF06E /* Six.html */; };
+		210AF2601CC8A82200ECF06E /* Six.js in Resources */ = {isa = PBXBuildFile; fileRef = 210AF25F1CC8A82200ECF06E /* Six.js */; };
 		2113B9681CC4D6D000CBCD47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113B9671CC4D6D000CBCD47 /* main.m */; };
 		2113B96B1CC4D6D000CBCD47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113B96A1CC4D6D000CBCD47 /* AppDelegate.m */; };
 		2113B96E1CC4D6D000CBCD47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113B96D1CC4D6D000CBCD47 /* ViewController.m */; };
@@ -43,6 +45,8 @@
 		2104D16F1CC74C6300070EEF /* j1mall.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = j1mall.js; sourceTree = "<group>"; };
 		2104D1711CC74F9600070EEF /* j1mall_build.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = j1mall_build.js; sourceTree = "<group>"; };
 		210AF25B1CC8A30F00ECF06E /* Five.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Five.html; sourceTree = "<group>"; };
+		210AF25D1CC8A7E800ECF06E /* Six.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Six.html; sourceTree = "<group>"; };
+		210AF25F1CC8A82200ECF06E /* Six.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Six.js; sourceTree = "<group>"; };
 		2113B9631CC4D6D000CBCD47 /* WebView-JS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebView-JS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2113B9671CC4D6D000CBCD47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2113B9691CC4D6D000CBCD47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -189,6 +193,8 @@
 			children = (
 				213D11891CC5FFD00023222E /* SixViewController.h */,
 				213D118A1CC5FFD00023222E /* SixViewController.m */,
+				210AF25D1CC8A7E800ECF06E /* Six.html */,
+				210AF25F1CC8A82200ECF06E /* Six.js */,
 			);
 			path = "oc调用js";
 			sourceTree = "<group>";
@@ -281,8 +287,10 @@
 				2113B9731CC4D6D000CBCD47 /* Assets.xcassets in Resources */,
 				213D11E01CC62F630023222E /* test.html in Resources */,
 				2104D16C1CC74C4100070EEF /* j1mall.html in Resources */,
+				210AF2601CC8A82200ECF06E /* Six.js in Resources */,
 				2104D1701CC74C6300070EEF /* j1mall.js in Resources */,
 				2113B9711CC4D6D000CBCD47 /* Main.storyboard in Resources */,
+				210AF25E1CC8A7E800ECF06E /* Six.html in Resources */,
 				210036DF1CC75C9100730E55 /* Four.html in Resources */,
 				210AF25C1CC8A30F00ECF06E /* Five.html in Resources */,
 				213D11D81CC62CC20023222E /* test.css in Resources */,
