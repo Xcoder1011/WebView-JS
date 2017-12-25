@@ -7,17 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		210036DF1CC75C9100730E55 /* Four.html in Resources */ = {isa = PBXBuildFile; fileRef = 210036DE1CC75C9100730E55 /* Four.html */; };
 		210036E51CC75DC300730E55 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210036E41CC75DC300730E55 /* JavaScriptCore.framework */; };
-		210036ED1CC773D100730E55 /* GoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 210036EC1CC773D100730E55 /* GoodsModel.m */; };
 		2104D1641CC719A800070EEF /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 2104D1621CC719A800070EEF /* test.js */; };
 		2104D16C1CC74C4100070EEF /* j1mall.html in Resources */ = {isa = PBXBuildFile; fileRef = 2104D16B1CC74C4100070EEF /* j1mall.html */; };
 		2104D16E1CC74C5500070EEF /* j1mall.css in Resources */ = {isa = PBXBuildFile; fileRef = 2104D16D1CC74C5500070EEF /* j1mall.css */; };
-		2104D1701CC74C6300070EEF /* j1mall.js in Resources */ = {isa = PBXBuildFile; fileRef = 2104D16F1CC74C6300070EEF /* j1mall.js */; };
-		2104D1721CC74F9600070EEF /* j1mall_build.js in Resources */ = {isa = PBXBuildFile; fileRef = 2104D1711CC74F9600070EEF /* j1mall_build.js */; };
-		210AF25C1CC8A30F00ECF06E /* Five.html in Resources */ = {isa = PBXBuildFile; fileRef = 210AF25B1CC8A30F00ECF06E /* Five.html */; };
 		210AF25E1CC8A7E800ECF06E /* Six.html in Resources */ = {isa = PBXBuildFile; fileRef = 210AF25D1CC8A7E800ECF06E /* Six.html */; };
 		210AF2601CC8A82200ECF06E /* Six.js in Resources */ = {isa = PBXBuildFile; fileRef = 210AF25F1CC8A82200ECF06E /* Six.js */; };
+		211128FA1CCF0C7B006D0FE2 /* SevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211128F81CCF0C7B006D0FE2 /* SevenViewController.m */; };
+		211128FB1CCF0C7B006D0FE2 /* SevenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 211128F91CCF0C7B006D0FE2 /* SevenViewController.xib */; };
+		211128FD1CCF19AC006D0FE2 /* Seven.js in Resources */ = {isa = PBXBuildFile; fileRef = 211128FC1CCF19AC006D0FE2 /* Seven.js */; };
 		2113B9681CC4D6D000CBCD47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113B9671CC4D6D000CBCD47 /* main.m */; };
 		2113B96B1CC4D6D000CBCD47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113B96A1CC4D6D000CBCD47 /* AppDelegate.m */; };
 		2113B96E1CC4D6D000CBCD47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113B96D1CC4D6D000CBCD47 /* ViewController.m */; };
@@ -25,28 +23,39 @@
 		2113B9731CC4D6D000CBCD47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2113B9721CC4D6D000CBCD47 /* Assets.xcassets */; };
 		2113B9761CC4D6D000CBCD47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2113B9741CC4D6D000CBCD47 /* LaunchScreen.storyboard */; };
 		213D117F1CC5FF8F0023222E /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 213D117E1CC5FF8F0023222E /* TwoViewController.m */; };
-		213D11851CC5FFB60023222E /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 213D11841CC5FFB60023222E /* FourViewController.m */; };
-		213D11881CC5FFC30023222E /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 213D11871CC5FFC30023222E /* FiveViewController.m */; };
 		213D118B1CC5FFD00023222E /* SixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 213D118A1CC5FFD00023222E /* SixViewController.m */; };
-		213D118E1CC600140023222E /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 213D118D1CC600140023222E /* ThreeViewController.m */; };
 		213D11D81CC62CC20023222E /* test.css in Resources */ = {isa = PBXBuildFile; fileRef = 213D11D71CC62CC20023222E /* test.css */; };
 		213D11E01CC62F630023222E /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 213D11DE1CC62F630023222E /* test.html */; };
 		2141201B1CC5C8490076ED8B /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2141201A1CC5C8490076ED8B /* OneViewController.m */; };
+		21455B851CCDB947002E0261 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21455B841CCDB947002E0261 /* ThreeViewController.m */; };
+		21455B8C1CCDB9AE002E0261 /* Four.html in Resources */ = {isa = PBXBuildFile; fileRef = 21455B871CCDB9AE002E0261 /* Four.html */; };
+		21455B8D1CCDB9AE002E0261 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21455B891CCDB9AE002E0261 /* FourViewController.m */; };
+		21455B8E1CCDB9AE002E0261 /* GoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21455B8B1CCDB9AE002E0261 /* GoodsModel.m */; };
+		21455B931CCDB9F7002E0261 /* Five.html in Resources */ = {isa = PBXBuildFile; fileRef = 21455B901CCDB9F7002E0261 /* Five.html */; };
+		21455B941CCDB9F7002E0261 /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21455B921CCDB9F7002E0261 /* FiveViewController.m */; };
+		21455B961CCDBBCD002E0261 /* Three.html in Resources */ = {isa = PBXBuildFile; fileRef = 21455B951CCDBBCD002E0261 /* Three.html */; };
+		BC005D8B1D702F5600E725E9 /* NineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC005D8A1D702F5600E725E9 /* NineViewController.m */; };
+		BC005D8D1D702FA600E725E9 /* Nine.html in Resources */ = {isa = PBXBuildFile; fileRef = BC005D8C1D702FA600E725E9 /* Nine.html */; };
+		BC29E83F1F8F59A9003D4EB5 /* WKWebViewBridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC29E83D1F8F59A9003D4EB5 /* WKWebViewBridgeViewController.m */; };
+		BC29E8401F8F59A9003D4EB5 /* WKWebViewBridgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC29E83E1F8F59A9003D4EB5 /* WKWebViewBridgeViewController.xib */; };
+		BC31BE7A1E83D53500AEF601 /* TestBridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC31BE781E83D53500AEF601 /* TestBridgeViewController.m */; };
+		BC31BE7B1E83D53500AEF601 /* TestBridgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC31BE791E83D53500AEF601 /* TestBridgeViewController.xib */; };
+		BC31BE7D1E83D91400AEF601 /* testBridge.html in Resources */ = {isa = PBXBuildFile; fileRef = BC31BE7C1E83D91400AEF601 /* testBridge.html */; };
+		BC63576B6FA6075CDDA330CE /* libPods-WebView-JS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B78E3550BFA1F98F3FC5441 /* libPods-WebView-JS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		210036DE1CC75C9100730E55 /* Four.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Four.html; sourceTree = "<group>"; };
+		1B78E3550BFA1F98F3FC5441 /* libPods-WebView-JS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebView-JS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		210036E41CC75DC300730E55 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		210036EB1CC773D100730E55 /* GoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsModel.h; sourceTree = "<group>"; };
-		210036EC1CC773D100730E55 /* GoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsModel.m; sourceTree = "<group>"; };
 		2104D1621CC719A800070EEF /* test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
 		2104D16B1CC74C4100070EEF /* j1mall.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = j1mall.html; sourceTree = "<group>"; };
 		2104D16D1CC74C5500070EEF /* j1mall.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = j1mall.css; sourceTree = "<group>"; };
-		2104D16F1CC74C6300070EEF /* j1mall.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = j1mall.js; sourceTree = "<group>"; };
-		2104D1711CC74F9600070EEF /* j1mall_build.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = j1mall_build.js; sourceTree = "<group>"; };
-		210AF25B1CC8A30F00ECF06E /* Five.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Five.html; sourceTree = "<group>"; };
 		210AF25D1CC8A7E800ECF06E /* Six.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Six.html; sourceTree = "<group>"; };
 		210AF25F1CC8A82200ECF06E /* Six.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Six.js; sourceTree = "<group>"; };
+		211128F71CCF0C7B006D0FE2 /* SevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SevenViewController.h; sourceTree = "<group>"; };
+		211128F81CCF0C7B006D0FE2 /* SevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SevenViewController.m; sourceTree = "<group>"; };
+		211128F91CCF0C7B006D0FE2 /* SevenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SevenViewController.xib; sourceTree = "<group>"; };
+		211128FC1CCF19AC006D0FE2 /* Seven.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Seven.js; sourceTree = "<group>"; };
 		2113B9631CC4D6D000CBCD47 /* WebView-JS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebView-JS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2113B9671CC4D6D000CBCD47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2113B9691CC4D6D000CBCD47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,18 +68,35 @@
 		2113B9771CC4D6D000CBCD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		213D117D1CC5FF8F0023222E /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
 		213D117E1CC5FF8F0023222E /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
-		213D11831CC5FFB60023222E /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
-		213D11841CC5FFB60023222E /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
-		213D11861CC5FFC30023222E /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
-		213D11871CC5FFC30023222E /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
 		213D11891CC5FFD00023222E /* SixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixViewController.h; sourceTree = "<group>"; };
 		213D118A1CC5FFD00023222E /* SixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixViewController.m; sourceTree = "<group>"; };
-		213D118C1CC600140023222E /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
-		213D118D1CC600140023222E /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
 		213D11D71CC62CC20023222E /* test.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = test.css; sourceTree = "<group>"; };
 		213D11DE1CC62F630023222E /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 		214120191CC5C8490076ED8B /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
 		2141201A1CC5C8490076ED8B /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		21455B831CCDB947002E0261 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		21455B841CCDB947002E0261 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		21455B871CCDB9AE002E0261 /* Four.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Four.html; sourceTree = "<group>"; };
+		21455B881CCDB9AE002E0261 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		21455B891CCDB9AE002E0261 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		21455B8A1CCDB9AE002E0261 /* GoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsModel.h; sourceTree = "<group>"; };
+		21455B8B1CCDB9AE002E0261 /* GoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsModel.m; sourceTree = "<group>"; };
+		21455B901CCDB9F7002E0261 /* Five.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Five.html; sourceTree = "<group>"; };
+		21455B911CCDB9F7002E0261 /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		21455B921CCDB9F7002E0261 /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		21455B951CCDBBCD002E0261 /* Three.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Three.html; sourceTree = "<group>"; };
+		37D11377FF96714A05737F11 /* Pods-WebView-JS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebView-JS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebView-JS/Pods-WebView-JS.release.xcconfig"; sourceTree = "<group>"; };
+		BC005D891D702F5600E725E9 /* NineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NineViewController.h; sourceTree = "<group>"; };
+		BC005D8A1D702F5600E725E9 /* NineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NineViewController.m; sourceTree = "<group>"; };
+		BC005D8C1D702FA600E725E9 /* Nine.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Nine.html; sourceTree = "<group>"; };
+		BC29E83C1F8F59A9003D4EB5 /* WKWebViewBridgeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewBridgeViewController.h; sourceTree = "<group>"; };
+		BC29E83D1F8F59A9003D4EB5 /* WKWebViewBridgeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewBridgeViewController.m; sourceTree = "<group>"; };
+		BC29E83E1F8F59A9003D4EB5 /* WKWebViewBridgeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WKWebViewBridgeViewController.xib; sourceTree = "<group>"; };
+		BC31BE771E83D53500AEF601 /* TestBridgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBridgeViewController.h; sourceTree = "<group>"; };
+		BC31BE781E83D53500AEF601 /* TestBridgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestBridgeViewController.m; sourceTree = "<group>"; };
+		BC31BE791E83D53500AEF601 /* TestBridgeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestBridgeViewController.xib; sourceTree = "<group>"; };
+		BC31BE7C1E83D91400AEF601 /* testBridge.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = testBridge.html; sourceTree = "<group>"; };
+		E306EDEA4BAF003E2FFB9C2E /* Pods-WebView-JS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebView-JS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebView-JS/Pods-WebView-JS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,18 +105,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				210036E51CC75DC300730E55 /* JavaScriptCore.framework in Frameworks */,
+				BC63576B6FA6075CDDA330CE /* libPods-WebView-JS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		211128F61CCF0C3C006D0FE2 /* oc调用js方法(加载本地js) */ = {
+			isa = PBXGroup;
+			children = (
+				211128F71CCF0C7B006D0FE2 /* SevenViewController.h */,
+				211128F81CCF0C7B006D0FE2 /* SevenViewController.m */,
+				211128F91CCF0C7B006D0FE2 /* SevenViewController.xib */,
+				211128FC1CCF19AC006D0FE2 /* Seven.js */,
+			);
+			path = "oc调用js方法(加载本地js)";
+			sourceTree = "<group>";
+		};
 		2113B95A1CC4D6D000CBCD47 = {
 			isa = PBXGroup;
 			children = (
 				210036E41CC75DC300730E55 /* JavaScriptCore.framework */,
 				2113B9651CC4D6D000CBCD47 /* WebView-JS */,
 				2113B9641CC4D6D000CBCD47 /* Products */,
+				4F556644404603EB2D5AE263 /* Pods */,
+				D382AD4D8DB93998463A9CF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,18 +147,18 @@
 			children = (
 				214120101CC5C75A0076ED8B /* 加载本地的js,html,css */,
 				214120111CC5C75A0076ED8B /* 加载网络js文件 */,
-				214120121CC5C75A0076ED8B /* 使用js库 */,
-				214120131CC5C75A0076ED8B /* js调用oc方法（通过对象调用类中方法） */,
-				214120141CC5C75A0076ED8B /* js调用oc方法（通过block回调） */,
+				21455B821CCDB947002E0261 /* js调用oc方法 */,
+				21455B861CCDB9AE002E0261 /* js调用oc方法（以JSExport协议关联native） */,
+				21455B8F1CCDB9F7002E0261 /* js调用oc方法（以block形式关联JavaScript） */,
 				214120151CC5C75A0076ED8B /* oc调用js */,
+				211128F61CCF0C3C006D0FE2 /* oc调用js方法(加载本地js) */,
+				BC005D881D702F0200E725E9 /* 捕获JS发起的URL */,
+				BC31BE761E83D3EF00AEF601 /* 使用WebViewJavascriptBridge */,
+				BC29E83B1F8F5931003D4EB5 /* WKWebView与JS交互(Bridge) */,
 				2113B9691CC4D6D000CBCD47 /* AppDelegate.h */,
 				2113B96A1CC4D6D000CBCD47 /* AppDelegate.m */,
 				2113B96C1CC4D6D000CBCD47 /* ViewController.h */,
 				2113B96D1CC4D6D000CBCD47 /* ViewController.m */,
-				2113B96F1CC4D6D000CBCD47 /* Main.storyboard */,
-				2113B9721CC4D6D000CBCD47 /* Assets.xcassets */,
-				2113B9741CC4D6D000CBCD47 /* LaunchScreen.storyboard */,
-				2113B9771CC4D6D000CBCD47 /* Info.plist */,
 				2113B9661CC4D6D000CBCD47 /* Supporting Files */,
 			);
 			path = "WebView-JS";
@@ -127,6 +167,10 @@
 		2113B9661CC4D6D000CBCD47 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2113B96F1CC4D6D000CBCD47 /* Main.storyboard */,
+				2113B9721CC4D6D000CBCD47 /* Assets.xcassets */,
+				2113B9741CC4D6D000CBCD47 /* LaunchScreen.storyboard */,
+				2113B9771CC4D6D000CBCD47 /* Info.plist */,
 				2113B9671CC4D6D000CBCD47 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -151,41 +195,8 @@
 				213D117E1CC5FF8F0023222E /* TwoViewController.m */,
 				2104D16B1CC74C4100070EEF /* j1mall.html */,
 				2104D16D1CC74C5500070EEF /* j1mall.css */,
-				2104D16F1CC74C6300070EEF /* j1mall.js */,
-				2104D1711CC74F9600070EEF /* j1mall_build.js */,
 			);
 			path = "加载网络js文件";
-			sourceTree = "<group>";
-		};
-		214120121CC5C75A0076ED8B /* 使用js库 */ = {
-			isa = PBXGroup;
-			children = (
-				213D118C1CC600140023222E /* ThreeViewController.h */,
-				213D118D1CC600140023222E /* ThreeViewController.m */,
-			);
-			path = "使用js库";
-			sourceTree = "<group>";
-		};
-		214120131CC5C75A0076ED8B /* js调用oc方法（通过对象调用类中方法） */ = {
-			isa = PBXGroup;
-			children = (
-				213D11831CC5FFB60023222E /* FourViewController.h */,
-				213D11841CC5FFB60023222E /* FourViewController.m */,
-				210036EB1CC773D100730E55 /* GoodsModel.h */,
-				210036EC1CC773D100730E55 /* GoodsModel.m */,
-				210036DE1CC75C9100730E55 /* Four.html */,
-			);
-			path = "js调用oc方法（通过对象调用类中方法）";
-			sourceTree = "<group>";
-		};
-		214120141CC5C75A0076ED8B /* js调用oc方法（通过block回调） */ = {
-			isa = PBXGroup;
-			children = (
-				213D11861CC5FFC30023222E /* FiveViewController.h */,
-				213D11871CC5FFC30023222E /* FiveViewController.m */,
-				210AF25B1CC8A30F00ECF06E /* Five.html */,
-			);
-			path = "js调用oc方法（通过block回调）";
 			sourceTree = "<group>";
 		};
 		214120151CC5C75A0076ED8B /* oc调用js */ = {
@@ -223,6 +234,89 @@
 			path = js;
 			sourceTree = "<group>";
 		};
+		21455B821CCDB947002E0261 /* js调用oc方法 */ = {
+			isa = PBXGroup;
+			children = (
+				21455B831CCDB947002E0261 /* ThreeViewController.h */,
+				21455B841CCDB947002E0261 /* ThreeViewController.m */,
+				21455B951CCDBBCD002E0261 /* Three.html */,
+			);
+			name = "js调用oc方法";
+			path = "加载网络js文件/js调用oc方法";
+			sourceTree = "<group>";
+		};
+		21455B861CCDB9AE002E0261 /* js调用oc方法（以JSExport协议关联native） */ = {
+			isa = PBXGroup;
+			children = (
+				21455B871CCDB9AE002E0261 /* Four.html */,
+				21455B881CCDB9AE002E0261 /* FourViewController.h */,
+				21455B891CCDB9AE002E0261 /* FourViewController.m */,
+				21455B8A1CCDB9AE002E0261 /* GoodsModel.h */,
+				21455B8B1CCDB9AE002E0261 /* GoodsModel.m */,
+			);
+			name = "js调用oc方法（以JSExport协议关联native）";
+			path = "加载网络js文件/js调用oc方法/js调用oc方法（以JSExport协议关联native）";
+			sourceTree = "<group>";
+		};
+		21455B8F1CCDB9F7002E0261 /* js调用oc方法（以block形式关联JavaScript） */ = {
+			isa = PBXGroup;
+			children = (
+				21455B901CCDB9F7002E0261 /* Five.html */,
+				21455B911CCDB9F7002E0261 /* FiveViewController.h */,
+				21455B921CCDB9F7002E0261 /* FiveViewController.m */,
+			);
+			name = "js调用oc方法（以block形式关联JavaScript）";
+			path = "加载网络js文件/js调用oc方法/js调用oc方法（以JSExport协议关联native）/js调用oc方法（以block形式关联JavaScript）";
+			sourceTree = "<group>";
+		};
+		4F556644404603EB2D5AE263 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E306EDEA4BAF003E2FFB9C2E /* Pods-WebView-JS.debug.xcconfig */,
+				37D11377FF96714A05737F11 /* Pods-WebView-JS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC005D881D702F0200E725E9 /* 捕获JS发起的URL */ = {
+			isa = PBXGroup;
+			children = (
+				BC005D891D702F5600E725E9 /* NineViewController.h */,
+				BC005D8A1D702F5600E725E9 /* NineViewController.m */,
+				BC005D8C1D702FA600E725E9 /* Nine.html */,
+			);
+			path = "捕获JS发起的URL";
+			sourceTree = "<group>";
+		};
+		BC29E83B1F8F5931003D4EB5 /* WKWebView与JS交互(Bridge) */ = {
+			isa = PBXGroup;
+			children = (
+				BC29E83C1F8F59A9003D4EB5 /* WKWebViewBridgeViewController.h */,
+				BC29E83D1F8F59A9003D4EB5 /* WKWebViewBridgeViewController.m */,
+				BC29E83E1F8F59A9003D4EB5 /* WKWebViewBridgeViewController.xib */,
+			);
+			path = "WKWebView与JS交互(Bridge)";
+			sourceTree = "<group>";
+		};
+		BC31BE761E83D3EF00AEF601 /* 使用WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				BC31BE771E83D53500AEF601 /* TestBridgeViewController.h */,
+				BC31BE781E83D53500AEF601 /* TestBridgeViewController.m */,
+				BC31BE791E83D53500AEF601 /* TestBridgeViewController.xib */,
+				BC31BE7C1E83D91400AEF601 /* testBridge.html */,
+			);
+			path = "使用WebViewJavascriptBridge";
+			sourceTree = "<group>";
+		};
+		D382AD4D8DB93998463A9CF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B78E3550BFA1F98F3FC5441 /* libPods-WebView-JS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,9 +324,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2113B97A1CC4D6D000CBCD47 /* Build configuration list for PBXNativeTarget "WebView-JS" */;
 			buildPhases = (
+				6DFE12BD7350A3CB975C01C1 /* [CP] Check Pods Manifest.lock */,
 				2113B95F1CC4D6D000CBCD47 /* Sources */,
 				2113B9601CC4D6D000CBCD47 /* Frameworks */,
 				2113B9611CC4D6D000CBCD47 /* Resources */,
+				D34D89C0F8C7068803AFF282 /* [CP] Embed Pods Frameworks */,
+				FCB88F4AAF9995F87904E7BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +351,7 @@
 				TargetAttributes = {
 					2113B9621CC4D6D000CBCD47 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LH66V26Z7L;
 					};
 				};
 			};
@@ -281,39 +379,96 @@
 			buildActionMask = 2147483647;
 			files = (
 				2104D16E1CC74C5500070EEF /* j1mall.css in Resources */,
+				BC29E8401F8F59A9003D4EB5 /* WKWebViewBridgeViewController.xib in Resources */,
+				BC31BE7D1E83D91400AEF601 /* testBridge.html in Resources */,
 				2104D1641CC719A800070EEF /* test.js in Resources */,
-				2104D1721CC74F9600070EEF /* j1mall_build.js in Resources */,
+				21455B961CCDBBCD002E0261 /* Three.html in Resources */,
 				2113B9761CC4D6D000CBCD47 /* LaunchScreen.storyboard in Resources */,
+				21455B931CCDB9F7002E0261 /* Five.html in Resources */,
 				2113B9731CC4D6D000CBCD47 /* Assets.xcassets in Resources */,
+				BC005D8D1D702FA600E725E9 /* Nine.html in Resources */,
 				213D11E01CC62F630023222E /* test.html in Resources */,
+				211128FB1CCF0C7B006D0FE2 /* SevenViewController.xib in Resources */,
 				2104D16C1CC74C4100070EEF /* j1mall.html in Resources */,
 				210AF2601CC8A82200ECF06E /* Six.js in Resources */,
-				2104D1701CC74C6300070EEF /* j1mall.js in Resources */,
+				21455B8C1CCDB9AE002E0261 /* Four.html in Resources */,
+				211128FD1CCF19AC006D0FE2 /* Seven.js in Resources */,
+				BC31BE7B1E83D53500AEF601 /* TestBridgeViewController.xib in Resources */,
 				2113B9711CC4D6D000CBCD47 /* Main.storyboard in Resources */,
 				210AF25E1CC8A7E800ECF06E /* Six.html in Resources */,
-				210036DF1CC75C9100730E55 /* Four.html in Resources */,
-				210AF25C1CC8A30F00ECF06E /* Five.html in Resources */,
 				213D11D81CC62CC20023222E /* test.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6DFE12BD7350A3CB975C01C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D34D89C0F8C7068803AFF282 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebView-JS/Pods-WebView-JS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB88F4AAF9995F87904E7BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebView-JS/Pods-WebView-JS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2113B95F1CC4D6D000CBCD47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				213D11881CC5FFC30023222E /* FiveViewController.m in Sources */,
 				213D118B1CC5FFD00023222E /* SixViewController.m in Sources */,
-				213D11851CC5FFB60023222E /* FourViewController.m in Sources */,
 				2113B96E1CC4D6D000CBCD47 /* ViewController.m in Sources */,
+				BC31BE7A1E83D53500AEF601 /* TestBridgeViewController.m in Sources */,
+				21455B8D1CCDB9AE002E0261 /* FourViewController.m in Sources */,
+				211128FA1CCF0C7B006D0FE2 /* SevenViewController.m in Sources */,
+				BC005D8B1D702F5600E725E9 /* NineViewController.m in Sources */,
+				21455B8E1CCDB9AE002E0261 /* GoodsModel.m in Sources */,
+				BC29E83F1F8F59A9003D4EB5 /* WKWebViewBridgeViewController.m in Sources */,
+				21455B941CCDB9F7002E0261 /* FiveViewController.m in Sources */,
 				2113B96B1CC4D6D000CBCD47 /* AppDelegate.m in Sources */,
 				2113B9681CC4D6D000CBCD47 /* main.m in Sources */,
-				213D118E1CC600140023222E /* ThreeViewController.m in Sources */,
 				213D117F1CC5FF8F0023222E /* TwoViewController.m in Sources */,
-				210036ED1CC773D100730E55 /* GoodsModel.m in Sources */,
 				2141201B1CC5C8490076ED8B /* OneViewController.m in Sources */,
+				21455B851CCDB947002E0261 /* ThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,10 +576,13 @@
 		};
 		2113B97B1CC4D6D000CBCD47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E306EDEA4BAF003E2FFB9C2E /* Pods-WebView-JS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LH66V26Z7L;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = "WebView-JS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "J1.WebView-JS";
@@ -435,10 +593,13 @@
 		};
 		2113B97C1CC4D6D000CBCD47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D11377FF96714A05737F11 /* Pods-WebView-JS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LH66V26Z7L;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = "WebView-JS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "J1.WebView-JS";
